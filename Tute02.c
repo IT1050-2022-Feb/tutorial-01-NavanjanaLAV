@@ -22,7 +22,7 @@ int main() {
   int distance;
   float amount;
   printf("Enter distance the van has travelled(km) ");
-  scanf("%d",distance);
+  scanf("%d",&distance);
 
   if(distance<=30)
     amount= distance * 50;
